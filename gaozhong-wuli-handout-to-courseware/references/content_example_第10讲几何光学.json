@@ -1,0 +1,2844 @@
+{
+ "subject": "高中物理",
+ "lecture_no": "第10讲",
+ "title": "几何光学",
+ "grade": "高二",
+ "teacher": "主讲老师：",
+ "textbook_link": [
+  [
+   "教材版本",
+   "对应章节",
+   "对应页码"
+  ],
+  [
+   "人教版",
+   "选择性必修一第四章第1、2节",
+   "85~94页"
+  ],
+  [
+   "教科版",
+   "选择性必修一第四章第1、2、3节",
+   "92~107页"
+  ],
+  [
+   "沪科版",
+   "选择性必修一第四章第1、2节",
+   "71~80页"
+  ],
+  [
+   "鲁科版",
+   "选择性必修一第四章",
+   "98~123页"
+  ]
+ ],
+ "modules": [
+  {
+   "name": "光的折射",
+   "sections": [
+    {
+     "name": "光的折射",
+     "knowledge": [
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "1．基础知识"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（1）光的折射现象"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t光射到两种介质的分界面上时，一部分光进入到另一种介质中去，光的传播方向发生改变的现象叫做光的折射。"
+        }
+       ],
+       "imgs": [
+        "image0.jpg"
+       ]
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（2）光的折射定律"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t折射光线与入射光线、法线处于同一平面内，折射光线与入射光线分别位于法线两侧，入射角的正弦与折射角的正弦成正比。即"
+        },
+        {
+         "type": "math",
+         "id": "m000",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（3）折射率"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t光从真空射入某种介质发生折射时，入射角"
+        },
+        {
+         "type": "math",
+         "id": "m001",
+         "inline": true,
+         "unicode": "θ"
+        },
+        {
+         "type": "math",
+         "id": "m002",
+         "inline": true,
+         "unicode": "₁"
+        },
+        {
+         "type": "text",
+         "text": "的正弦与折射角"
+        },
+        {
+         "type": "math",
+         "id": "m003",
+         "inline": true,
+         "unicode": "θ"
+        },
+        {
+         "type": "math",
+         "id": "m004",
+         "inline": true,
+         "unicode": "₂"
+        },
+        {
+         "type": "text",
+         "text": "的正弦之比，叫做介质的绝对折射率，简称折射率，用符号"
+        },
+        {
+         "type": "math",
+         "id": "m005",
+         "inline": true,
+         "unicode": "n"
+        },
+        {
+         "type": "text",
+         "text": "表示。真空折射率为"
+        },
+        {
+         "type": "math",
+         "id": "m006",
+         "inline": true,
+         "unicode": "1"
+        },
+        {
+         "type": "text",
+         "text": "，空气折射率近似为"
+        },
+        {
+         "type": "math",
+         "id": "m007",
+         "inline": true,
+         "unicode": "1"
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（4）光在介质中的速度"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t某种介质的折射率"
+        },
+        {
+         "type": "math",
+         "id": "m008",
+         "inline": true,
+         "unicode": "n"
+        },
+        {
+         "type": "text",
+         "text": "等于光在真空中的传播速度"
+        },
+        {
+         "type": "math",
+         "id": "m009",
+         "inline": true,
+         "unicode": "c"
+        },
+        {
+         "type": "text",
+         "text": "与光在这种介质中的传播速度"
+        },
+        {
+         "type": "math",
+         "id": "m010",
+         "inline": true,
+         "unicode": "v"
+        },
+        {
+         "type": "text",
+         "text": "之比，即"
+        },
+        {
+         "type": "math",
+         "id": "m011",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（5）对折射的理解"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t① 公式"
+        },
+        {
+         "type": "math",
+         "id": "m012",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "中，不论光从真空射入介质，还是从介质射入真空，"
+        },
+        {
+         "type": "math",
+         "id": "m013",
+         "inline": true,
+         "unicode": "θ₁"
+        },
+        {
+         "type": "text",
+         "text": "总是真空中的光线与法线间的夹角，"
+        },
+        {
+         "type": "math",
+         "id": "m014",
+         "inline": true,
+         "unicode": "θ₂"
+        },
+        {
+         "type": "text",
+         "text": "总是介质中的光线与法线间的夹角。因"
+        },
+        {
+         "type": "math",
+         "id": "m015",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "，"
+        },
+        {
+         "type": "math",
+         "id": "m016",
+         "inline": true,
+         "unicode": "c>v"
+        },
+        {
+         "type": "text",
+         "text": "，故"
+        },
+        {
+         "type": "math",
+         "id": "m017",
+         "inline": true,
+         "unicode": "sinθ₁"
+        },
+        {
+         "type": "text",
+         "text": "均大于"
+        },
+        {
+         "type": "math",
+         "id": "m018",
+         "inline": true,
+         "unicode": "sinθ₂"
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t② 同一种色光，在不同介质中虽然波速、波长不同，但频率相同。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t③ 折射率与介质的密度没有关系，光密介质不是指密度大的介质。（两种介质相比较，折射率较大的介质叫做光密介质，折射率较小的介质叫做光疏介质。）"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t④ 折射率的大小不仅与介质本身有关，还与光的频率有关。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t⑤ 同一种介质中，频率越大的色光折射率越大，传播速度越小，故可见光中由红到紫折射率逐渐增大。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t⑥ 光从光疏介质斜射入光密介质，光线向法线方向偏折，反之，光从光密介质斜射入光疏介质，光线向远离法线方向偏折；"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t⑦ 在反射和折射现象中，光路均是可逆的。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t2．公式总结"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t折射率公式："
+        },
+        {
+         "type": "math",
+         "id": "m019",
+         "inline": false
+        }
+       ],
+       "imgs": []
+      }
+     ],
+     "examples": [
+      {
+       "no": "例题1",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题1第四届中国质量获奖者"
+        },
+        {
+         "type": "math",
+         "id": "m020",
+         "inline": true,
+         "unicode": "--"
+        },
+        {
+         "type": "text",
+         "text": "福耀集团，其生产的汽车玻璃以超高的品质取得了世界八大汽车厂商的认证。参加社会实践的某高中学生利用所学的光学知识测出了一款汽车玻璃样品的折射率。如图所示，该学生将一束光线以入射角"
+        },
+        {
+         "type": "math",
+         "id": "m021",
+         "inline": true,
+         "unicode": "θ=60∘"
+        },
+        {
+         "type": "text",
+         "text": "从空气射向厚度"
+        },
+        {
+         "type": "math",
+         "id": "m022",
+         "inline": true,
+         "unicode": "h=2 cm"
+        },
+        {
+         "type": "text",
+         "text": "的平行板玻璃，测出下界面出射光线的出射点与上界面入射光线的法线之间的距离"
+        },
+        {
+         "type": "math",
+         "id": "m023",
+         "inline": true,
+         "unicode": "d=1 cm"
+        },
+        {
+         "type": "text",
+         "text": "。则此玻璃的折射率"
+        },
+        {
+         "type": "math",
+         "id": "m024",
+         "inline": true,
+         "unicode": "n"
+        },
+        {
+         "type": "text",
+         "text": "为"
+        },
+        {
+         "type": "math",
+         "id": "m025",
+         "inline": true,
+         "unicode": "(    )"
+        }
+       ],
+       "stem_imgs": [
+        "image1.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "math",
+           "id": "m026",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m027",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "math",
+           "id": "m028",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "math",
+           "id": "m029",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题2",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题2如图所示为光由玻璃射入空气中的光路图，直线"
+        },
+        {
+         "type": "math",
+         "id": "m030",
+         "inline": true,
+         "unicode": "AB"
+        },
+        {
+         "type": "text",
+         "text": "与"
+        },
+        {
+         "type": "math",
+         "id": "m031",
+         "inline": true,
+         "unicode": "CD"
+        },
+        {
+         "type": "text",
+         "text": "垂直，其中一条是法线。入射光线与"
+        },
+        {
+         "type": "math",
+         "id": "m032",
+         "inline": true,
+         "unicode": "CD"
+        },
+        {
+         "type": "text",
+         "text": "的夹角为"
+        },
+        {
+         "type": "math",
+         "id": "m033",
+         "inline": true,
+         "unicode": "α"
+        },
+        {
+         "type": "text",
+         "text": "，折射光线与"
+        },
+        {
+         "type": "math",
+         "id": "m034",
+         "inline": true,
+         "unicode": "CD"
+        },
+        {
+         "type": "text",
+         "text": "的夹角为"
+        },
+        {
+         "type": "math",
+         "id": "m035",
+         "inline": true,
+         "unicode": "β"
+        },
+        {
+         "type": "text",
+         "text": "（"
+        },
+        {
+         "type": "math",
+         "id": "m036",
+         "inline": true,
+         "unicode": "α>β"
+        },
+        {
+         "type": "text",
+         "text": "，"
+        },
+        {
+         "type": "math",
+         "id": "m037",
+         "inline": true,
+         "unicode": "α+β≠90∘"
+        },
+        {
+         "type": "text",
+         "text": "），则该玻璃的折射率"
+        },
+        {
+         "type": "math",
+         "id": "m038",
+         "inline": true,
+         "unicode": "n"
+        },
+        {
+         "type": "text",
+         "text": "等于"
+        },
+        {
+         "type": "math",
+         "id": "m039",
+         "inline": true,
+         "unicode": "(      )"
+        },
+        {
+         "type": "text",
+         "text": " "
+        }
+       ],
+       "stem_imgs": [
+        "image2.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "math",
+           "id": "m040",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m041",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "math",
+           "id": "m042",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "math",
+           "id": "m043",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题3",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题3一束光由空气射入某介质，入射角为"
+        },
+        {
+         "type": "math",
+         "id": "m044",
+         "inline": true,
+         "unicode": "60 ∘"
+        },
+        {
+         "type": "text",
+         "text": "，其折射光线恰好与反射光线垂直，则光在该介质中的传播速度为"
+        },
+        {
+         "type": "math",
+         "id": "m045",
+         "inline": true,
+         "unicode": "(      )"
+        }
+       ],
+       "stem_imgs": [],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "math",
+           "id": "m046",
+           "inline": false
+          },
+          {
+           "type": "text",
+           "text": "\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m047",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "math",
+           "id": "m048",
+           "inline": false
+          },
+          {
+           "type": "text",
+           "text": "\t\tD．"
+          },
+          {
+           "type": "math",
+           "id": "m049",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      }
+     ]
+    },
+    {
+     "name": "光的色散",
+     "knowledge": [
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "1．基础知识"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（1）光的颜色"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t不同颜色的光，频率不同，在同种介质中传播时波长不同，波速不同；"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t光的颜色与频率有关，当光从一种介质进入另一种介质时频率不变，故颜色不变。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（2）光的色散"
+        }
+       ],
+       "imgs": [
+        "image3.jpg"
+       ]
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t① 概念：含有多种颜色的光被分解为各种单色光的现象叫作光的色散；"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t② 光谱：含有多种颜色的光被分解后，各种色光按其波长的有序排列，就是光谱；"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t③ 折射中的色散"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t棱镜使光发生色散的原因是同种介质对不同频率的光的折射率不同，不同频率的光通过棱镜后的偏折程度不同；同种材料对紫光的折射率最大，对红光的折射率最小。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t④ 色散的意义：表明白光是由各种单色光组成的复色光。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "颜色",
+         "红→紫"
+        ],
+        [
+         "频率",
+         "低→高"
+        ],
+        [
+         "对同一介质的折射率",
+         "小→大"
+        ],
+        [
+         "通过同一棱镜的偏折角",
+         "小→大"
+        ],
+        [
+         "在同一介质中速度（真空中速度大小相等）",
+         "大→小"
+        ],
+        [
+         "在真空中或同一介质中波长",
+         "长→短"
+        ]
+       ]
+      }
+     ],
+     "examples": [
+      {
+       "no": "例题4",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题4明代学者方以智在《阳燧倒影》中记载：“凡宝石面凸，则光成一条，有数棱则必有一面五色”，表明白光通过多棱晶体折射会发生色散现象。如图所示，一束复色光通过三棱镜后分解成两束单色光"
+        },
+        {
+         "type": "math",
+         "id": "m056",
+         "inline": true,
+         "unicode": "a"
+        },
+        {
+         "type": "text",
+         "text": "、"
+        },
+        {
+         "type": "math",
+         "id": "m057",
+         "inline": true,
+         "unicode": "b"
+        },
+        {
+         "type": "text",
+         "text": "，下列说法正确的是"
+        },
+        {
+         "type": "math",
+         "id": "m058",
+         "inline": true,
+         "unicode": "(    )"
+        }
+       ],
+       "stem_imgs": [
+        "image4.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "math",
+           "id": "m059",
+           "inline": true,
+           "unicode": "a"
+          },
+          {
+           "type": "text",
+           "text": "光的频率大于"
+          },
+          {
+           "type": "math",
+           "id": "m060",
+           "inline": true,
+           "unicode": "b"
+          },
+          {
+           "type": "text",
+           "text": "光的频率"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m061",
+           "inline": true,
+           "unicode": "b"
+          },
+          {
+           "type": "text",
+           "text": "光的频率大于"
+          },
+          {
+           "type": "math",
+           "id": "m062",
+           "inline": true,
+           "unicode": "a"
+          },
+          {
+           "type": "text",
+           "text": "光的频率"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．在该三棱镜中"
+          },
+          {
+           "type": "math",
+           "id": "m063",
+           "inline": true,
+           "unicode": "a"
+          },
+          {
+           "type": "text",
+           "text": "光传播速度小于"
+          },
+          {
+           "type": "math",
+           "id": "m064",
+           "inline": true,
+           "unicode": "b"
+          },
+          {
+           "type": "text",
+           "text": "光传播速度"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．在该三棱镜中"
+          },
+          {
+           "type": "math",
+           "id": "m065",
+           "inline": true,
+           "unicode": "a"
+          },
+          {
+           "type": "text",
+           "text": "光的波长小于"
+          },
+          {
+           "type": "math",
+           "id": "m066",
+           "inline": true,
+           "unicode": "b"
+          },
+          {
+           "type": "text",
+           "text": "光的波长"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题5",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题5如图所示是一细束太阳光通过玻璃三棱镜后，在光屏上产生光谱的示意图——光的色散现象。光谱中红光在最上端，紫光在最下端，中间从上到下依次是橙、黄、绿、蓝、靛等色光。下表是测得的该玻璃棱镜材料对各种色光的折射率。"
+        }
+       ],
+       "stem_imgs": [],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．各种色光通过棱镜后的偏折角度不同，红光的偏折角度最小，紫光的偏折角度最大"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．该棱镜材料对不同色光的折射率不同，对红光的折射率小，对紫光的折射率大"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．各种色光在三棱镜中的传播速度不同，红光在该玻璃三棱镜中的传播速度比紫光大"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．同一色光在不同介质中传播时波长相同"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "E",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tE．同一色光在不同介质中传播时频率不同"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true,
+       "extra": [
+        [
+         {
+          "type": "img",
+          "ref": "image5.jpg"
+         },
+         {
+          "type": "text",
+          "text": "   "
+         },
+         {
+          "type": "img",
+          "ref": "image6.jpg"
+         }
+        ],
+        [
+         {
+          "type": "text",
+          "text": "\t\t\t根据光的色散现象、表格中的有关数据以及光学知识，下列说法正确的是"
+         },
+         {
+          "type": "math",
+          "id": "m067",
+          "inline": true,
+          "unicode": "(      )"
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "光的全反射",
+   "sections": [
+    {
+     "name": "光的全反射",
+     "knowledge": [
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "1．基础知识"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（1）全反射现象"
+        }
+       ],
+       "imgs": [
+        "image7.jpg"
+       ]
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t光线从光密介质斜射向光疏介质时，不发生折射，光线全部被反射回原介质的现象称为全反射现象。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（2）全反射的临界角"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t折射角等于"
+        },
+        {
+         "type": "math",
+         "id": "m068",
+         "inline": true,
+         "unicode": "90∘"
+        },
+        {
+         "type": "text",
+         "text": "时的入射角（恰好发生全反射的入射角）。设光线从某种介质射向真空或空气时的临界角为"
+        },
+        {
+         "type": "math",
+         "id": "m069",
+         "inline": true,
+         "unicode": "C"
+        },
+        {
+         "type": "text",
+         "text": "，则"
+        },
+        {
+         "type": "math",
+         "id": "m070",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（3）发生全反射的两个条件"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t① 光线从光密介质斜射向光疏介质；"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t② 入射角大于或等于临界角。"
+        }
+       ],
+       "imgs": [
+        "image8.jpg"
+       ]
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t（4）光导纤维的构造及传播原理"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t① 构造：光导纤维是一种透明的玻璃纤维丝，直径只有"
+        },
+        {
+         "type": "math",
+         "id": "m071",
+         "inline": true,
+         "unicode": "1μm∼"
+        },
+        {
+         "type": "math",
+         "id": "m072",
+         "inline": true,
+         "unicode": "100μm"
+        },
+        {
+         "type": "text",
+         "text": "，如图所示，它由内芯和外套两层组成，内芯的折射率大于外套的折射率。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t② 传播原理：光由一端进入，在两层的界面上经过多次全反射，从另一端射出，光导纤维可以远距离传播光，光信号又可以转换成电信号，进而变为声音、图像。"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t③ 光导纤维的折射率"
+        }
+       ],
+       "imgs": []
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t如图所示，设光导纤维的折射率为"
+        },
+        {
+         "type": "math",
+         "id": "m073",
+         "inline": true,
+         "unicode": "n"
+        },
+        {
+         "type": "text",
+         "text": "，当入射角为"
+        },
+        {
+         "type": "math",
+         "id": "m074",
+         "inline": true,
+         "unicode": "θ₁"
+        },
+        {
+         "type": "text",
+         "text": "时，进入端面的折射光线传到侧面时恰好发生全反射，此时"
+        },
+        {
+         "type": "math",
+         "id": "m075",
+         "inline": true,
+         "unicode": "θ=C"
+        },
+        {
+         "type": "text",
+         "text": "，则有"
+        },
+        {
+         "type": "math",
+         "id": "m076",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "，"
+        },
+        {
+         "type": "math",
+         "id": "m077",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "，"
+        },
+        {
+         "type": "math",
+         "id": "m078",
+         "inline": true,
+         "unicode": "C+θ₂=90∘"
+        },
+        {
+         "type": "text",
+         "text": "，由以上各式可得"
+        },
+        {
+         "type": "math",
+         "id": "m079",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "imgs": [
+        "image9.jpg"
+       ]
+      },
+      {
+       "type": "para",
+       "segs": [
+        {
+         "type": "text",
+         "text": "\t\t\t由图可知：当"
+        },
+        {
+         "type": "math",
+         "id": "m080",
+         "inline": true,
+         "unicode": "θ₁"
+        },
+        {
+         "type": "text",
+         "text": "增大时，"
+        },
+        {
+         "type": "math",
+         "id": "m081",
+         "inline": true,
+         "unicode": "θ₂"
+        },
+        {
+         "type": "text",
+         "text": "增大，而从光导纤维射向空气中光线的入射角"
+        },
+        {
+         "type": "math",
+         "id": "m082",
+         "inline": true,
+         "unicode": "θ"
+        },
+        {
+         "type": "text",
+         "text": "减小，若"
+        },
+        {
+         "type": "math",
+         "id": "m083",
+         "inline": true,
+         "unicode": "θ₁=90∘"
+        },
+        {
+         "type": "text",
+         "text": "时，且"
+        },
+        {
+         "type": "math",
+         "id": "m084",
+         "inline": true,
+         "unicode": "θ=C"
+        },
+        {
+         "type": "text",
+         "text": "，则所有进入光导纤维中的光线都能发生全反射，解得"
+        },
+        {
+         "type": "math",
+         "id": "m085",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "，由于光导纤维包有外套，外套的折射率比空气的折射率大，因此折射率只要大于"
+        },
+        {
+         "type": "math",
+         "id": "m086",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "即可实现。"
+        }
+       ],
+       "imgs": []
+      }
+     ],
+     "examples": [
+      {
+       "no": "例题6",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题6如图所示，将一个半圆形玻璃砖置于空气中，当一束单色光入射到玻璃砖的圆心"
+        },
+        {
+         "type": "math",
+         "id": "m087",
+         "inline": true,
+         "unicode": "O"
+        },
+        {
+         "type": "text",
+         "text": "时，下列情况不可能发生的是"
+        },
+        {
+         "type": "math",
+         "id": "m088",
+         "inline": true,
+         "unicode": "(      )"
+        },
+        {
+         "type": "text",
+         "text": " "
+        }
+       ],
+       "stem_imgs": [],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "img",
+           "ref": "image10.jpg"
+          }
+         ],
+         "imgs": [
+          "image10.jpg"
+         ]
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "img",
+           "ref": "image11.jpg"
+          }
+         ],
+         "imgs": [
+          "image11.jpg"
+         ]
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "img",
+           "ref": "image12.jpg"
+          }
+         ],
+         "imgs": [
+          "image12.jpg"
+         ]
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "img",
+           "ref": "image13.jpg"
+          }
+         ],
+         "imgs": [
+          "image13.jpg"
+         ]
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题7",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题7如图所示，竖直挡板有镂空字母"
+        },
+        {
+         "type": "math",
+         "id": "m089",
+         "inline": true,
+         "unicode": "F"
+        },
+        {
+         "type": "text",
+         "text": "，全反射棱镜的左侧面与挡板平行，一水平光束从挡板左侧入射，穿过棱镜后在其下方水平光屏"
+        },
+        {
+         "type": "math",
+         "id": "m090",
+         "inline": true,
+         "unicode": "abcd"
+        },
+        {
+         "type": "text",
+         "text": "上形成的图样是"
+        },
+        {
+         "type": "math",
+         "id": "m091",
+         "inline": true,
+         "unicode": "(    )"
+        }
+       ],
+       "stem_imgs": [
+        "image14.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "img",
+           "ref": "image15.jpg"
+          }
+         ],
+         "imgs": [
+          "image15.jpg"
+         ]
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "img",
+           "ref": "image16.jpg"
+          }
+         ],
+         "imgs": [
+          "image16.jpg"
+         ]
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "img",
+           "ref": "image17.jpg"
+          }
+         ],
+         "imgs": [
+          "image17.jpg"
+         ]
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "img",
+           "ref": "image18.jpg"
+          }
+         ],
+         "imgs": [
+          "image18.jpg"
+         ]
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题8",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题8沙漠里经常会出现沙漠蜃景，这是由于不同高度的空气层温度不同，折射率也不同，光线被不断折射，人们逆着光就看到了蜃景。此过程简化的模型如图所示，一束光从第1层空气入射，在第3层和第4层界面发生了全反射，下列说法正确的是"
+        },
+        {
+         "type": "math",
+         "id": "m092",
+         "inline": true,
+         "unicode": "(      )"
+        }
+       ],
+       "stem_imgs": [
+        "image19.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．第1层空气的折射率比第2层空气的折射率小"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．第3层空气的折射率比第4层空气的折射率大"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．光在第1层空气中的传播速度大于在第2层空气中的传播速度"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．光在第2层空气中的传播速度大于在第3层空气中的传播速度"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题9",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题9如图所示，红绿两束单色光，同时从空气中沿同一路径以"
+        },
+        {
+         "type": "math",
+         "id": "m093",
+         "inline": true,
+         "unicode": "θ"
+        },
+        {
+         "type": "text",
+         "text": "角从"
+        },
+        {
+         "type": "math",
+         "id": "m094",
+         "inline": true,
+         "unicode": "MN"
+        },
+        {
+         "type": "text",
+         "text": "面射入某长方体透明均匀介质，折射光束在"
+        },
+        {
+         "type": "math",
+         "id": "m095",
+         "inline": true,
+         "unicode": "NP"
+        },
+        {
+         "type": "text",
+         "text": "面发生全反射，反射光射向"
+        },
+        {
+         "type": "math",
+         "id": "m096",
+         "inline": true,
+         "unicode": "PQ"
+        },
+        {
+         "type": "text",
+         "text": "面。若"
+        },
+        {
+         "type": "math",
+         "id": "m097",
+         "inline": true,
+         "unicode": "θ"
+        },
+        {
+         "type": "text",
+         "text": "逐渐增大，两束光在"
+        },
+        {
+         "type": "math",
+         "id": "m098",
+         "inline": true,
+         "unicode": "NP"
+        },
+        {
+         "type": "text",
+         "text": "面上的全反射现象会先后消失。已知在该介质中红光的折射率小于绿光的折射率。下列说法正确的是"
+        },
+        {
+         "type": "math",
+         "id": "m099",
+         "inline": true,
+         "unicode": "(    )"
+        }
+       ],
+       "stem_imgs": [
+        "image20.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．在"
+          },
+          {
+           "type": "math",
+           "id": "m100",
+           "inline": true,
+           "unicode": "PQ"
+          },
+          {
+           "type": "text",
+           "text": "面上，红光比绿光更靠近"
+          },
+          {
+           "type": "math",
+           "id": "m101",
+           "inline": true,
+           "unicode": "P"
+          },
+          {
+           "type": "text",
+           "text": "点"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m102",
+           "inline": true,
+           "unicode": "θ"
+          },
+          {
+           "type": "text",
+           "text": "逐渐增大时，红光的全反射现象先消失"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "math",
+           "id": "m103",
+           "inline": true,
+           "unicode": "θ"
+          },
+          {
+           "type": "text",
+           "text": "逐渐增大时，入射光可能在"
+          },
+          {
+           "type": "math",
+           "id": "m104",
+           "inline": true,
+           "unicode": "MN"
+          },
+          {
+           "type": "text",
+           "text": "面发生全反射"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "math",
+           "id": "m105",
+           "inline": true,
+           "unicode": "θ"
+          },
+          {
+           "type": "text",
+           "text": "逐渐减小时，两束光在"
+          },
+          {
+           "type": "math",
+           "id": "m106",
+           "inline": true,
+           "unicode": "MN"
+          },
+          {
+           "type": "text",
+           "text": "面折射的折射角逐渐增大"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题10",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题10一正三角形"
+        },
+        {
+         "type": "math",
+         "id": "m107",
+         "inline": true,
+         "unicode": "OPQ"
+        },
+        {
+         "type": "text",
+         "text": "玻璃砖，某束光线垂直于"
+        },
+        {
+         "type": "math",
+         "id": "m108",
+         "inline": true,
+         "unicode": "OP"
+        },
+        {
+         "type": "text",
+         "text": "射入，恰好在"
+        },
+        {
+         "type": "math",
+         "id": "m109",
+         "inline": true,
+         "unicode": "PQ"
+        },
+        {
+         "type": "text",
+         "text": "界面发生全反射，则玻璃砖的折射率"
+        },
+        {
+         "type": "math",
+         "id": "m110",
+         "inline": true,
+         "unicode": "(    )"
+        }
+       ],
+       "stem_imgs": [
+        "image21.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "math",
+           "id": "m111",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m112",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "math",
+           "id": "m113",
+           "inline": false
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "math",
+           "id": "m114",
+           "inline": true,
+           "unicode": "2"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题11",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题11国内最长的梅溪湖激光音乐喷泉采用了世界一流的喷泉、灯光和音响设备。假设喷泉的水池中某一彩灯发出的一条光线在水面的入射角为"
+        },
+        {
+         "type": "math",
+         "id": "m115",
+         "inline": true,
+         "unicode": "30∘"
+        },
+        {
+         "type": "text",
+         "text": "，从水面上射出时的折射角是"
+        },
+        {
+         "type": "math",
+         "id": "m116",
+         "inline": true,
+         "unicode": "45∘"
+        },
+        {
+         "type": "text",
+         "text": "。则下列说法正确的是"
+        },
+        {
+         "type": "math",
+         "id": "m117",
+         "inline": true,
+         "unicode": "(      )"
+        }
+       ],
+       "stem_imgs": [],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．光在水面发生全反射的临界角为"
+          },
+          {
+           "type": "math",
+           "id": "m118",
+           "inline": true,
+           "unicode": "30∘"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．光在水面发生全反射的临界角为"
+          },
+          {
+           "type": "math",
+           "id": "m119",
+           "inline": true,
+           "unicode": "60∘"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．被水池中"
+          },
+          {
+           "type": "math",
+           "id": "m120",
+           "inline": false
+          },
+          {
+           "type": "text",
+           "text": "深处的一彩灯（视为点光源）照亮的水面面积约为"
+          },
+          {
+           "type": "math",
+           "id": "m121",
+           "inline": true,
+           "unicode": "25 m²"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．被水池中"
+          },
+          {
+           "type": "math",
+           "id": "m122",
+           "inline": false
+          },
+          {
+           "type": "text",
+           "text": "深处的一彩灯（视为点光源）照亮的水面面积约为"
+          },
+          {
+           "type": "math",
+           "id": "m123",
+           "inline": true,
+           "unicode": "22 m²"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题12",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题12如图所示，一条光线从空气中垂直射到棱镜界面"
+        },
+        {
+         "type": "math",
+         "id": "m124",
+         "inline": true,
+         "unicode": "BC"
+        },
+        {
+         "type": "text",
+         "text": "上，棱镜的折射率为"
+        },
+        {
+         "type": "math",
+         "id": "m125",
+         "inline": false
+        },
+        {
+         "type": "text",
+         "text": "，这条光线首次离开棱镜时与界面夹角为"
+        },
+        {
+         "type": "math",
+         "id": "m126",
+         "inline": true,
+         "unicode": "(      )"
+        }
+       ],
+       "stem_imgs": [
+        "image22.jpg"
+       ],
+       "options": [
+        {
+         "label": "A",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tA．"
+          },
+          {
+           "type": "math",
+           "id": "m127",
+           "inline": true,
+           "unicode": "30∘"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "B",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tB．"
+          },
+          {
+           "type": "math",
+           "id": "m128",
+           "inline": true,
+           "unicode": "45∘"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "C",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tC．"
+          },
+          {
+           "type": "math",
+           "id": "m129",
+           "inline": true,
+           "unicode": "60∘"
+          }
+         ],
+         "imgs": []
+        },
+        {
+         "label": "D",
+         "segs": [
+          {
+           "type": "text",
+           "text": "\t\t\tD．"
+          },
+          {
+           "type": "math",
+           "id": "m130",
+           "inline": true,
+           "unicode": "90∘"
+          }
+         ],
+         "imgs": []
+        }
+       ],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true
+      },
+      {
+       "no": "例题13",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题13如图，边长为"
+        },
+        {
+         "type": "math",
+         "id": "m131",
+         "inline": true,
+         "unicode": "a"
+        },
+        {
+         "type": "text",
+         "text": "的正方形"
+        },
+        {
+         "type": "math",
+         "id": "m132",
+         "inline": true,
+         "unicode": "ABCD"
+        },
+        {
+         "type": "text",
+         "text": "为一棱镜的横截面，"
+        },
+        {
+         "type": "math",
+         "id": "m133",
+         "inline": true,
+         "unicode": "M"
+        },
+        {
+         "type": "text",
+         "text": "为"
+        },
+        {
+         "type": "math",
+         "id": "m134",
+         "inline": true,
+         "unicode": "AB"
+        },
+        {
+         "type": "text",
+         "text": "边的中点。在截面所在平面内，一光线自"
+        },
+        {
+         "type": "math",
+         "id": "m135",
+         "inline": true,
+         "unicode": "M"
+        },
+        {
+         "type": "text",
+         "text": "点射入棱镜，入射角为"
+        },
+        {
+         "type": "math",
+         "id": "m136",
+         "inline": true,
+         "unicode": "60∘"
+        },
+        {
+         "type": "text",
+         "text": "，经折射后在"
+        },
+        {
+         "type": "math",
+         "id": "m137",
+         "inline": true,
+         "unicode": "BC"
+        },
+        {
+         "type": "text",
+         "text": "边的"
+        },
+        {
+         "type": "math",
+         "id": "m138",
+         "inline": true,
+         "unicode": "N"
+        },
+        {
+         "type": "text",
+         "text": "点恰好发生全反射，反射光线从"
+        },
+        {
+         "type": "math",
+         "id": "m139",
+         "inline": true,
+         "unicode": "CD"
+        },
+        {
+         "type": "text",
+         "text": "边的"
+        },
+        {
+         "type": "math",
+         "id": "m140",
+         "inline": true,
+         "unicode": "P"
+        },
+        {
+         "type": "text",
+         "text": "点射出棱镜，求棱镜的折射率以及"
+        },
+        {
+         "type": "math",
+         "id": "m141",
+         "inline": true,
+         "unicode": "P"
+        },
+        {
+         "type": "text",
+         "text": "、"
+        },
+        {
+         "type": "math",
+         "id": "m142",
+         "inline": true,
+         "unicode": "C"
+        },
+        {
+         "type": "text",
+         "text": "两点之间的距离。"
+        }
+       ],
+       "stem_imgs": [],
+       "options": [],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true,
+       "extra": [
+        [
+         {
+          "type": "img",
+          "ref": "image23.jpg"
+         },
+         {
+          "type": "text",
+          "text": " "
+         }
+        ]
+       ]
+      },
+      {
+       "no": "例题14",
+       "stem_segs": [
+        {
+         "type": "text",
+         "text": "例题14图示为一光导纤维（可简化为一长玻璃丝）的示意图，玻璃丝长为"
+        },
+        {
+         "type": "math",
+         "id": "m143",
+         "inline": true,
+         "unicode": "L"
+        },
+        {
+         "type": "text",
+         "text": "，折射率为"
+        },
+        {
+         "type": "math",
+         "id": "m144",
+         "inline": true,
+         "unicode": "n"
+        },
+        {
+         "type": "text",
+         "text": "，"
+        },
+        {
+         "type": "math",
+         "id": "m145",
+         "inline": true,
+         "unicode": "AB"
+        },
+        {
+         "type": "text",
+         "text": "代表端面。已知光在真空中的传播速度为"
+        },
+        {
+         "type": "math",
+         "id": "m146",
+         "inline": true,
+         "unicode": "c"
+        },
+        {
+         "type": "text",
+         "text": "。"
+        }
+       ],
+       "stem_imgs": [
+        "image24.jpg"
+       ],
+       "options": [],
+       "answer": null,
+       "analysis": null,
+       "needs_answer": true,
+       "extra": [
+        [
+         {
+          "type": "text",
+          "text": "(1)为使光线能从玻璃丝的"
+         },
+         {
+          "type": "math",
+          "id": "m147",
+          "inline": true,
+          "unicode": "AB"
+         },
+         {
+          "type": "text",
+          "text": "端面传播到另一端面，求光线在端面"
+         },
+         {
+          "type": "math",
+          "id": "m148",
+          "inline": true,
+          "unicode": "AB"
+         },
+         {
+          "type": "text",
+          "text": "上的入射角应满足的条件；"
+         }
+        ],
+        [
+         {
+          "type": "text",
+          "text": "(2)求光线从玻璃丝的"
+         },
+         {
+          "type": "math",
+          "id": "m149",
+          "inline": true,
+          "unicode": "AB"
+         },
+         {
+          "type": "text",
+          "text": "端面传播到另一端面所需的最长时间。"
+         }
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exam": [
+  {
+   "no": "真题1",
+   "stem_segs": [
+    {
+     "type": "text",
+     "text": "1测量透明溶液折射率的装置如图"
+    },
+    {
+     "type": "math",
+     "id": "m150",
+     "inline": true,
+     "unicode": "1"
+    },
+    {
+     "type": "text",
+     "text": "所示。在转盘上共轴放置一圆柱形容器，容器被透明隔板平分为两部分，一半充满待测溶液，另一半是空气。一束激光从左侧沿直径方向入射，右侧放置足够大的观测屏。在某次实验中，容器从图"
+    },
+    {
+     "type": "math",
+     "id": "m151",
+     "inline": true,
+     "unicode": "2"
+    },
+    {
+     "type": "text",
+     "text": "（俯视图）所示位置开始逆时针匀速旋转，此时观测屏上无亮点；随着继续转动，亮点突然出现，并开始计时，经"
+    },
+    {
+     "type": "math",
+     "id": "m152",
+     "inline": true,
+     "unicode": "Δt"
+    },
+    {
+     "type": "text",
+     "text": "后亮点消失。已知转盘转动角速度为"
+    },
+    {
+     "type": "math",
+     "id": "m153",
+     "inline": true,
+     "unicode": "ω"
+    },
+    {
+     "type": "text",
+     "text": "，空气折射率为"
+    },
+    {
+     "type": "math",
+     "id": "m154",
+     "inline": true,
+     "unicode": "1"
+    },
+    {
+     "type": "text",
+     "text": "，隔板折射率为"
+    },
+    {
+     "type": "math",
+     "id": "m155",
+     "inline": true,
+     "unicode": "n"
+    },
+    {
+     "type": "text",
+     "text": "，则待测溶液折射率"
+    },
+    {
+     "type": "math",
+     "id": "m156",
+     "inline": true,
+     "unicode": "nₓ"
+    },
+    {
+     "type": "text",
+     "text": "为"
+    },
+    {
+     "type": "math",
+     "id": "m157",
+     "inline": true,
+     "unicode": "(    )"
+    },
+    {
+     "type": "text",
+     "text": "（光从折射率"
+    },
+    {
+     "type": "math",
+     "id": "m158",
+     "inline": true,
+     "unicode": "n₁"
+    },
+    {
+     "type": "text",
+     "text": "的介质射入折射率"
+    },
+    {
+     "type": "math",
+     "id": "m159",
+     "inline": true,
+     "unicode": "n₂"
+    },
+    {
+     "type": "text",
+     "text": "的介质，入射角与折射角分别为"
+    },
+    {
+     "type": "math",
+     "id": "m160",
+     "inline": true,
+     "unicode": "θ₁"
+    },
+    {
+     "type": "text",
+     "text": "与"
+    },
+    {
+     "type": "math",
+     "id": "m161",
+     "inline": true,
+     "unicode": "θ₂"
+    },
+    {
+     "type": "text",
+     "text": "，有"
+    },
+    {
+     "type": "math",
+     "id": "m162",
+     "inline": false
+    },
+    {
+     "type": "text",
+     "text": "）"
+    }
+   ],
+   "stem_imgs": [
+    "image25.jpg"
+   ],
+   "options": [
+    {
+     "label": "A",
+     "segs": [
+      {
+       "type": "text",
+       "text": "\t\t\tA．"
+      },
+      {
+       "type": "math",
+       "id": "m163",
+       "inline": false
+      }
+     ],
+     "imgs": []
+    },
+    {
+     "label": "B",
+     "segs": [
+      {
+       "type": "text",
+       "text": "\t\t\tB．"
+      },
+      {
+       "type": "math",
+       "id": "m164",
+       "inline": false
+      }
+     ],
+     "imgs": []
+    },
+    {
+     "label": "C",
+     "segs": [
+      {
+       "type": "text",
+       "text": "\t\t\tC．"
+      },
+      {
+       "type": "math",
+       "id": "m165",
+       "inline": false
+      }
+     ],
+     "imgs": []
+    },
+    {
+     "label": "D",
+     "segs": [
+      {
+       "type": "text",
+       "text": "\t\t\tD．"
+      },
+      {
+       "type": "math",
+       "id": "m166",
+       "inline": false
+      }
+     ],
+     "imgs": []
+    }
+   ],
+   "answer": null,
+   "analysis": null,
+   "needs_answer": true
+  }
+ ],
+ "math_pool": {
+  "m000": "<m:oMath xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><m:sSub><m:e><m:r><m:t>n</m:t></m:r></m:e><m:sub><m:r><m:t>12</m:t></m:r></m:sub></m:sSub><m:r><m:t>=</m:t></m:r><m:f><m:fPr><m:ctrlPr/></m:fPr><m:num><m:r><m:t>sin</m:t></m:r><m:sSub><m:e><m:r><m:t>θ</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub></m:num><m:den><m:r><m:t>sin</m:t></m:r><m:sSub><m:e><m:r><m:t>θ</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub></m:den></m:f></m:oMath>",
+  "m001": "<m:oMath xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\"><m:r><m:t>θ</m:t></m:r></m:oMath>",
+  "m002": "<m:oMath xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\"><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub></m:oMath>"
+ },
+ "media": [
+  "image0.jpg",
+  "image1.jpg",
+  "image2.jpg",
+  "image3.jpg",
+  "image4.jpg",
+  "image5.jpg",
+  "image6.jpg",
+  "image7.jpg",
+  "image8.jpg",
+  "image9.jpg",
+  "image10.jpg",
+  "image11.jpg",
+  "image12.jpg",
+  "image13.jpg",
+  "image14.jpg",
+  "image15.jpg",
+  "image16.jpg",
+  "image17.jpg",
+  "image18.jpg",
+  "image19.jpg",
+  "image20.jpg",
+  "image21.jpg",
+  "image22.jpg",
+  "image23.jpg",
+  "image24.jpg",
+  "image25.jpg"
+ ],
+ "_stats": {
+  "modules": 2,
+  "examples": 14,
+  "exam": 1,
+  "formulas": 167,
+  "images": 26
+ },
+ "_note": "示例（math_pool 已截断；完整由 extract_handout.py 生成）"
+}
