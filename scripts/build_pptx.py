@@ -218,6 +218,12 @@ def DEFAULT_EA_FOR(s):
 def fill_para(p, segs, sz, color=INK, bold=False, math_pool=None, drop_label=False):
     """统一把 segments 填进段落 p：文字→run；行内简单公式→Unicode变量斜体；
        块公式→**行内原生公式**(嵌进本段,不另起形状·不偏移)。返回是否含块公式。"""
+    # 给段落写入 defRPr sz，让行内 <a14:m> 公式区继承与正文相同的字号
+    pPr = p._p.get_or_add_pPr()
+    defRPr = pPr.find(qn("a:defRPr"))
+    if defRPr is None:
+        defRPr = etree.SubElement(pPr, qn("a:defRPr"))
+    defRPr.set("sz", str(int(sz * 100)))
     has_block = False
     for s in segs:
         if s["type"] == "text":
@@ -349,11 +355,11 @@ def add_image(slide, png, x, y, max_w, max_h, center_x=True):
 
 
 # ════════ 公式（a14 原生 + 图片兜底）独立形状 ════════
-def add_math(slide, mid, om_xml, x, y, w, h):
+def add_math(slide, mid, om_xml, x, y, w, h, sz=18):
     """放一个块公式形状。native=纯原生公式(WPS/PPT可编辑,默认)；hybrid=原生+图片兜底。"""
     om = etree.fromstring(om_xml)
     if FORMULA_MODE == "native":
-        xml = math_native_xml(om, _sid(), x, y, w, h)
+        xml = math_native_xml(om, _sid(), x, y, w, h, sz=sz)
         slide.shapes._spTree.append(etree.fromstring(xml))
         return y + h
     png = MATH_IMG.get(mid)
@@ -460,12 +466,12 @@ class Flow:
         if not om_xml:
             return
         png = MATH_IMG.get(mid)
-        mh = 0.55
-        mw = 3.2
+        mh = 0.72   # 18pt 公式约占 0.25in/行，留 2~3 行余量
+        mw = 3.5
         if png and Path(png).exists():
-            mw, mh = fit_size(png, 5.0, 0.9)
+            mw, mh = fit_size(png, 5.0, 1.1)
         self.ensure(mh + 0.12)
-        add_math(self.slide, mid, om_xml, self.x + 0.4, self.y, mw, mh)
+        add_math(self.slide, mid, om_xml, self.x + 0.4, self.y, mw, mh, sz=sz)
         self.y += mh + 0.12
 
     def image(self, ref, max_w=5.5, max_h=3.0):
@@ -513,14 +519,14 @@ class Flow:
                     add_var_runs(p, t, sz, INK)
                 else:
                     _set_run(p.add_run(), t, sz, False, INK)
-        # 块公式 紧跟标签同行（native 公式较高→预留 0.5in 防与下一选项相碰）
+        # 块公式 紧跟标签同行（native 公式较高→预留空间防与下一选项相碰）
         rowh = lh
         for mid in block_ids:
             png = MATH_IMG.get(mid)
-            mw, mh = (fit_size(png, 3.2, 0.6) if png and Path(png).exists()
-                      else (1.8, 0.5))
+            mw, mh = (fit_size(png, 3.2, 0.72) if png and Path(png).exists()
+                      else (2.0, 0.65))
             self.ensure(mh)
-            add_math(self.slide, mid, self.math_pool[mid], xcur, self.y, mw, mh)
+            add_math(self.slide, mid, self.math_pool[mid], xcur, self.y, mw, mh, sz=sz)
             xcur += mw + 0.2
             rowh = max(rowh, mh)
         self.y += rowh + 0.04

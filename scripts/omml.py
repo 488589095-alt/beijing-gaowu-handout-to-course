@@ -113,22 +113,23 @@ def math_inline_xml(om):
 
 
 # ════════ 公式形状 ════════
-def math_native_xml(om, sid, left, top, w, h):
+def math_native_xml(om, sid, left, top, w, h, sz=18):
     """纯原生公式形状（无 mc/无图片兜底）：PowerPoint/WPS 渲染成『公式格式』可编辑对象。
-       结构同参考PPT：<p:sp>…<a:p><a14:m><m:oMathPara><m:oMath>…。
-       注意：LibreOffice/Google 不支持 a14 → 这些阅读器看不到公式（目标是 WPS/PowerPoint）。"""
+       sz: 公式字号(pt)，写入 <a:defRPr sz> 让 WPS/PPT 以指定字号渲染公式（默认 18pt）。"""
     L, T, Wd, Hd = (int(round(v * 914400)) for v in (left, top, w, h))
     inner = etree.tostring(clean_omath(om), encoding="unicode")
     a = inner.find(">") + 1
     b = inner.rfind("</")
     inner_body = inner[a:b]
+    sz_val = int(sz * 100)   # 单位：1/100 pt
     return (
         f'<p:sp xmlns:p="{P}" xmlns:a="{A}" xmlns:a14="{A14}">'
         f'<p:nvSpPr><p:cNvPr id="{sid}" name="math{sid}"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>'
         f'<p:spPr><a:xfrm><a:off x="{L}" y="{T}"/><a:ext cx="{Wd}" cy="{Hd}"/></a:xfrm>'
         f'<a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr>'
         f'<p:txBody><a:bodyPr wrap="none"><a:spAutoFit/></a:bodyPr><a:lstStyle/>'
-        f'<a:p><a:pPr/><a14:m><m:oMathPara xmlns:m="{M}">'
+        f'<a:p><a:pPr><a:defRPr sz="{sz_val}" b="0"/></a:pPr>'
+        f'<a14:m><m:oMathPara xmlns:m="{M}">'
         f'<m:oMathParaPr><m:jc m:val="centerGroup"/></m:oMathParaPr>'
         f'<m:oMath xmlns:m="{M}">{inner_body}</m:oMath></m:oMathPara></a14:m></a:p>'
         f'</p:txBody></p:sp>')
